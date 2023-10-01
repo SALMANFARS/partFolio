@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,300;1,500&family=Young+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,300;1,500&family=Young+Serif&display=swap');
+
+.conteiner{
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.tAbout{
+  color: #5199FF;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke: 2px;
+}
+
+/* .right{
+  background-image: url(../src/assets/programmer2.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+} */
+
+
+  .img{
+  background-image: url(../src/assets/programmer2.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%  100vh;
+  height: 100vh;
+}
+.pSorbon{
+  font-family: 'Libre Baskerville', serif;
+}
+
+
+.khat{
+border-radius: 50px;
+background: linear-gradient(90deg, #3C1DFF 18.63%, #14C9C9 78.88%);
+}
+.khat1{
+border-radius: 50px;
+background: linear-gradient(90deg, #3C1DFF 18.63%, #14C9C9 78.88%);
+}
