@@ -40,3 +40,47 @@ background: linear-gradient(90deg, #3C1DFF 18.63%, #14C9C9 78.88%);
 border-radius: 50px;
 background: linear-gradient(90deg, #3C1DFF 18.63%, #14C9C9 78.88%);
 }
+
+.zabon{
+    display: flex;
+    animation: zabon 8s linear infinite;
+    margin: 120px auto;
+    border: 1px solid transparent;
+    max-width: 80%;
+    overflow: hidden;
+    gap: 40px;
+}
+
+.zabon:hover {
+    animation-play-state: paused;
+}
+
+@keyframes zabon {
+    0% {
+        transform: translateX(0%);
+    }
+   100% {
+        transform: translateX(-100%);
+    }
+    
+    
+}
+
+
+.swiper {
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.swiper-slide {
+  background-position: center;
+  background-size: cover;
+  width: 100px;
+  height: 100px;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 50%;
+}
