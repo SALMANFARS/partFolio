@@ -3,6 +3,7 @@ import "../App.css";
 import html3 from '../assets/html3.png'
 import html5 from "../assets/html5.png";
 import js from "../assets/js.png";
+import ts from "../assets/typescript.png"
 import bootstrap from "../assets/bootstrap.png";
 import react from "../assets/react.png";
 import redux from "../assets/redux.png";
@@ -28,6 +29,9 @@ const Skills = () => {
           <div className="js">
             <img src={js} alt="" />
           </div>
+          <div className="ts">
+            <img src={ts} alt="" />
+          </div>
           <div className="bootstrap">
             <img src={bootstrap} alt="" />
           </div>
@@ -41,7 +45,6 @@ const Skills = () => {
         <div className="texts sm:grid grid-cols-1 sm:justify-items-center  md:grid-cols-4 text-white">
           <p>Adobe PhotoShop</p>
           <p>Microsoft Excel</p>
-         
         </div>
       </div>
 
