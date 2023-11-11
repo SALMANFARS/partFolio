@@ -11,9 +11,9 @@ const About = () => {
             <img src={programmer} alt="" />
           </div>
           <div className="rightt sm:text-center lg:text-start ">
-            <h1 className="sm:text-[50px] md:text-[110px] font-bold text-white ">
+            <h1 className="sm:text-[50px] md:text-[90px] font-bold text-white ">
               A little bit <br />
-              <b className="tAbout sm:text-[50px] md:text-[110px] ml-[50px]">
+              <b className="tAbout sm:text-[50px] md:text-[90px] ml-[50px]">
                 about me ...
               </b>
             </h1>

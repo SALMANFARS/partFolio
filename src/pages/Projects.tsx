@@ -1,59 +1,75 @@
-import React, { useState } from 'react'
+import React, { useState } from "react";
 import "../App.css";
-import img1 from "../assets/kinza.png"
-import img2 from "../assets/img2.png";
-import img3 from "../assets/img3.png";
-import img4 from "../assets/img4.png";
+import img1 from "../assets/kinza.jpg";
+import monokim from "../assets/monokim.jpg";
+import userlist from "../assets/userListtt.jpg";
+import todolist from "../assets/todoList.jpg";
+// Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
+// Import Swiper styles
+
 import "swiper/css";
 import "swiper/css/effect-coverflow";
 import "swiper/css/pagination";
 import { EffectCoverflow, Pagination } from "swiper/modules";
 const Projects = () => {
-
-
   return (
     <div id="projects">
       <div className="block6 py-[50px] bg-[#1F1F1F]">
-        <h1 className="text-white text-2xl text-center font-bold py-[20px]">
-          My Work Experiance
+        <h1 className="text-white text-[36px] text-center font-bold py-[20px]">
+          My Projects
         </h1>
-
-        <div className="svipers">
-          <Swiper
-        effect={'coverflow'}
-        grabCursor={true}
-        centeredSlides={true}
-        slidesPerView={'auto'}
-        coverflowEffect={{
-          rotate: 20,
-          stretch: 0,
-          depth: 50,
-          modifier: 2,
-          slideShadows: true,
-        }}
-        pagination={true}
-        modules={[EffectCoverflow, Pagination]}
-        className="mySwiper"
-      >
-        <SwiperSlide>
-          <img src={img1} />
-        </SwiperSlide>
-        <SwiperSlide>
-        <img src={img1} />
-        </SwiperSlide>
-        <SwiperSlide>
-          <img src={img1} />
-        </SwiperSlide>
-        <SwiperSlide>
-          <img src={img1} />
-        </SwiperSlide>
-        
-      </Swiper>
-        </div>
       </div>
+
+      <>
+        <Swiper
+          effect={"coverflow"}
+          grabCursor={true}
+          centeredSlides={true}
+          slidesPerView={"auto"}
+          coverflowEffect={{
+            rotate: 50,
+            stretch: 0,
+            depth: 100,
+            modifier: 1,
+            slideShadows: true,
+          }}
+          pagination={true}
+          modules={[EffectCoverflow, Pagination]}
+          className="mySwiper"
+        >
+          <SwiperSlide>
+            <a href="https://kinza-project.netlify.app/" target="_blank">
+              <img src={img1} />
+            </a>
+          </SwiperSlide>
+          <SwiperSlide>
+            <a
+              href="https://starlit-alpaca-2859f0.netlify.app/"
+              target="_blank"
+            >
+              <img src={monokim} />
+            </a>
+          </SwiperSlide>
+          <SwiperSlide>
+            <a href="https://employeeslists.netlify.app/" target="_blank">
+              <img src={userlist} />
+            </a>
+          </SwiperSlide>
+          <SwiperSlide>
+            <a href="https://lambent-lokum-bc7efe.netlify.app/" target="_blank">
+              <img src={todolist} />
+            </a>
+          </SwiperSlide>
+          {/* <SwiperSlide>
+            <a href="#" target="_blank">
+              <img src={img1} />
+            </a>
+          </SwiperSlide> */}
+        </Swiper>
+      </>
     </div>
   );
-}
+};
 
-export default Projects
+export default Projects;

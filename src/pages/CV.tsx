@@ -3,7 +3,7 @@ import React from 'react'
 const CV = () => {
   return (
     <div id='cv'>
-      <div className="block7  text-white text-center bg-[#1F1F1F]">
+      <div className="block7  text-white text-center bg-[#1F1F1F] py-[20px]">
         <h1 className="text-4xl font-bold py-[10px]">Intrested in my Work</h1>
         <p className="text-xs text-gray-500 py-[10px]">
           Download my cV to know more about me

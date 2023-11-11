@@ -12,9 +12,9 @@ import girdak from "../assets/girdak.png";
 const Skills = () => {
   return (
     <div id="skills">
-      <div className="block4 py-[100px] sm:pl-[10px] lg:pl-[200px] bg-[#1F1F1F]">
+      <div className="block4 py-[20px] sm:pl-[10px] lg:pl-[200px] bg-[#1F1F1F]">
         <hr className="w-[11%]" />
-        <p className="text-4xl text-white ">My Skills</p>
+        <p className="text-4xl text-white font-light">My Skills</p>
         <div className="zabon ">
           <div className="html3">
             <img src={html3} alt="" />
@@ -46,7 +46,7 @@ const Skills = () => {
       </div>
 
       <div className="block5 sm:grid grid-1 md:grid-cols-2 justify-items-center bg-[#1F1F1F]">
-        <div className="left py-[50px]">
+        <div className="left py-[10px]">
           <h1 className="text-4xl text-white pb-[10px] font-bold">Language</h1>
           <hr className="sm:hidden lg:block w-[150%]" />
           <br />
@@ -63,7 +63,7 @@ const Skills = () => {
             <div className="khat1 p-[10px_10px] w-[150px]"></div>
           </div>
         </div>
-        <div className="rightt py-[50px]">
+        <div className="rightt py-[10px]">
           <h1 className="text-4xl text-white pb-[10px] font-bold">Studies</h1>
           <hr className="sm:hidden lg:block w-[100%]" />
           <br />
