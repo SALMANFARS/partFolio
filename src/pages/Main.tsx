@@ -2,7 +2,7 @@ import "../App.css";
 import programmer2 from "../assets/programmer2.png";
 import MenuIcon from "@mui/icons-material/Menu";
 import { Link } from "react-scroll";
-import { Outlet } from "react-router-dom";
+
 
 const Layout = () => {
   return (
