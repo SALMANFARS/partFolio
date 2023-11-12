@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+
 import "../App.css";
 import img1 from "../assets/kinza.jpg";
 import monokim from "../assets/monokim.jpg";
