@@ -90,7 +90,7 @@ background: linear-gradient(90deg, #3C1DFF 18.63%, #14C9C9 78.88%);
   box-shadow: 0px 0px 11px 5px rgb(218, 222, 224);
 }
 
-@media(min-width: 375px) and (max-width: 639px){
+@media(min-width: 340px) and (max-width: 639px){
 
   .swiper-slide img {
     width: 320px;

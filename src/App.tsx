@@ -1,6 +1,5 @@
 
 import './App.css'
-import { RouterProvider, createBrowserRouter } from "react-router-dom";
 import About from './pages/About';
 import Projects from './pages/Projects';
 import Skills from './pages/Skills';

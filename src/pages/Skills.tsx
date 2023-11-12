@@ -1,4 +1,4 @@
-import React from 'react'
+
 import "../App.css";
 import html3 from '../assets/html3.png'
 import html5 from "../assets/html5.png";

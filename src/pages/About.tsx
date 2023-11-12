@@ -1,4 +1,4 @@
-import React from 'react'
+
 import "../App.css"
 
 import programmer from '../assets/programmer.png'
