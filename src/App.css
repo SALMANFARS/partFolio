@@ -1,13 +1,13 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,300;1,500&family=Young+Serif&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,300;1,500&family=Young+Serif&display=swap');
-
-.conteiner{
-    max-width: 1400px;
-    margin: 0 auto;
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,300;1,500&family=Young+Serif&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,300;1,500&family=Young+Serif&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Alex+Brush&family=Libre+Baskerville&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,300;1,500&family=Young+Serif&display=swap");
+.conteiner {
+  max-width: 1400px;
+  margin: 0 auto;
 }
 
-.tAbout{
-  color: #5199FF;
+.tAbout {
+  color: #5199ff;
   -webkit-text-fill-color: transparent;
   -webkit-text-stroke: 2px;
 }
@@ -19,67 +19,76 @@
   background-size: 100% 100%
 } */
 
-
-  .img{
+.img {
   background-image: url(../src/assets/programmer2.png);
   background-position: center;
   background-repeat: no-repeat;
-  background-size: 100%  100vh;
+  background-size: 100% 100vh;
   height: 100vh;
 }
-.pSorbon{
-  font-family: 'Libre Baskerville', serif;
+
+.name {
+  font-family: "Alex Brush", cursive;
+}
+.pSorbon {
+  font-family: "Libre Baskerville", serif;
 }
 
-
-.khat{
-border-radius: 50px;
-background: linear-gradient(90deg, #3C1DFF 18.63%, #14C9C9 78.88%);
+.khat {
+  border-radius: 50px;
+  background: linear-gradient(90deg, #3c1dff 18.63%, #14c9c9 78.88%);
 }
-.khat1{
-border-radius: 50px;
-background: linear-gradient(90deg, #3C1DFF 18.63%, #14C9C9 78.88%);
+.khat1 {
+  border-radius: 50px;
+  background: linear-gradient(90deg, #3c1dff 18.63%, #14c9c9 78.88%);
 }
 
-.zabon{
+.zabon {
+  display: flex;
+  animation: zabon 8s linear infinite;
+  margin: 120px auto;
+  border: 1px solid transparent;
+  max-width: 80%;
+  overflow: hidden;
+  gap: 40px;
+}
+
+@media (min-width: 340px) and (max-width: 1024px) {
+  .zabon {
     display: flex;
     animation: zabon 8s linear infinite;
-    margin: 120px auto;
+    margin: 40px auto;
     border: 1px solid transparent;
-    max-width: 80%;
+    max-width: 100%;
     overflow: hidden;
-    gap: 40px;
+    gap: 10px;
+  }
 }
 
 .zabon:hover {
-    animation-play-state: paused;
+  animation-play-state: paused;
 }
 
 @keyframes zabon {
-    0% {
-        transform: translateX(0%);
-    }
-   100% {
-        transform: translateX(-100%);
-    }
-    
-    
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
 }
- 
-
 
 .swiper {
   width: 100%;
   padding-top: 80px;
   padding-bottom: 50px;
- background-color: #1F1F1F;
+  background-color: #1f1f1f;
 }
 
 .swiper-slide {
   background-position: center;
   background-size: cover;
-   max-width: 500px;
-   
+  max-width: 500px;
 }
 
 .swiper-slide img {
@@ -90,18 +99,15 @@ background: linear-gradient(90deg, #3C1DFF 18.63%, #14C9C9 78.88%);
   box-shadow: 0px 0px 11px 5px rgb(218, 222, 224);
 }
 
-@media(min-width: 340px) and (max-width: 639px){
-
+@media (min-width: 340px) and (max-width: 639px) {
   .swiper-slide img {
     width: 320px;
-    height: 230px;  
-  }  
+    height: 230px;
+  }
   .swiper-slide {
     background-position: center;
     background-size: cover;
     width: 320px;
     height: 230px;
   }
-  
-
 }

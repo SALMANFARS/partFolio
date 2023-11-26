@@ -71,7 +71,7 @@ const Skills = () => {
           <hr className="sm:hidden lg:block w-[100%]" />
           <br />
           <div className="crm ">
-            <div className="crm1 sm:grid sm:grid-cols-1 justify-items-center md:flex flex-wrap justify-center items-center text-white gap-5 py-[5px]">
+            <div className="crm1 sm:grid sm:grid-cols-1 justify-items-center md:flex items-center text-white gap-5 py-[5px]">
               <img src={girdak} alt="" />
               <div className="texts">
                 <p className="text-[24px] py-[5px]">

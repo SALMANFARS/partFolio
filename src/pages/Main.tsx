@@ -3,14 +3,13 @@ import programmer2 from "../assets/programmer2.png";
 import MenuIcon from "@mui/icons-material/Menu";
 import { Link } from "react-scroll";
 
-
 const Layout = () => {
   return (
     <div className="section bg-[#1F1F1F]" id="main">
       <div className="conteiner">
         <div className="block1 flex flex-wrap justify-around pt-[20px]">
           <div className="left ">
-            <p className="sm:hidden md:block text-white pt-[20px] font-normal text-[24px]">
+            <p className="name sm:hidden md:block text-white pt-[20px] font-medium text-[32px]">
               Sorbon Kadyrov
             </p>
             <div className="txt sm:hidden md:block">
@@ -18,12 +17,19 @@ const Layout = () => {
               <p className="text-white font-bold text-[36px] pt-[40px]">
                 I’m Sorbon Kadyrov
               </p>
-              <p className="text-white pb-[25px] text-[18px]">Juniyor lvl 1 developer</p>
+              <p className="text-white pb-[25px] text-[18px]">
+                Juniyor lvl 1 developer
+              </p>
 
               <div className="btn pt-[50px]">
-                <button className="py-[10px] px-[20px] bg-gradient-to-b from-blue-300 to-blue-800 text-white rounded-lg">
-                  Download CV
-                </button>
+                <a
+                  href="/src/assets/ResumeEng.pdf"
+                  download="/src/assets/ResumeEng.pdf"
+                >
+                  <button className="py-[10px] px-[20px] bg-gradient-to-b from-blue-300 to-blue-800 text-white rounded-lg">
+                    Download CV
+                  </button>
+                </a>
               </div>
             </div>
           </div>
@@ -64,7 +70,7 @@ const Layout = () => {
           </div>
         </div>
 
-        <div className="img px-[10px] md:hidden ">
+        <div className="img px-[10px] sm:hidden ">
           <div className="burgerText flex justify-between py-[10px]">
             <div className="text">
               <p className="pSorbon text-white ">Sorbon Kadyrov</p>
