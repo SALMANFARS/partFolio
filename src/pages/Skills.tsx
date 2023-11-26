@@ -43,8 +43,8 @@ const Skills = () => {
           </div>
         </div>
         <div className="texts sm:grid grid-cols-1 sm:justify-items-center  md:grid-cols-4 text-white">
-          <p>Adobe PhotoShop</p>
-          <p>Microsoft Excel</p>
+          {/* <p>Adobe PhotoShop</p>
+          <p>Microsoft Excel</p> */}
         </div>
       </div>
 
@@ -71,7 +71,7 @@ const Skills = () => {
           <hr className="sm:hidden lg:block w-[100%]" />
           <br />
           <div className="crm ">
-            <div className="crm1 flex flex-wrap justify-center items-center text-white gap-5 py-[5px]">
+            <div className="crm1 sm:grid sm:grid-cols-1 justify-items-center md:flex flex-wrap justify-center items-center text-white gap-5 py-[5px]">
               <img src={girdak} alt="" />
               <div className="texts">
                 <p className="text-[24px] py-[5px]">
@@ -81,8 +81,11 @@ const Skills = () => {
               </div>
             </div>
 
-            <div className="crm1 flex flex-wrap justify-start items-center text-white gap-5 py-[5px]">
-              <img src={girdak} alt="" />
+            <div className="crm1 sm:grid sm:grid-cols-1 justify-items-center md:flex flex-wrap justify-start items-center text-white gap-5 py-[5px]">
+              <div className="img1">
+                <img src={girdak} alt="" />
+              </div>
+
               <div className="texts">
                 <p className="text-[24px] py-[5px]">Softclub Academy</p>
                 <p className="text-xs text-gray-500">BBA 2023</p>
