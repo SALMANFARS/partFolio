@@ -82,7 +82,7 @@ const Layout = () => {
         </div>
 
         <div className="txt text-center md:hidden">
-          <h1 className="pt-[20px] text-white font-light text-[22px]">Welcome </h1>
+          <h1 className="text-white font-light text-[22px]">Welcome </h1>
           <p className="text-white font-bold text-[28px] py-[10px]">
             I’m Sorbon Kadyrov
           </p>
