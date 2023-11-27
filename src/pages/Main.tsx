@@ -7,8 +7,8 @@ const Layout = () => {
   return (
     <div className="section bg-[#1F1F1F]" id="main">
       <div className="conteiner">
-        <div className="block1 flex flex-wrap justify-around pt-[20px]">
-          <div className="left ">
+        <div className="block1 flex justify-around pt-[20px]">
+          <div className="left md:pl-[10px] lg:pl-[0]">
             <p className="name sm:hidden md:block text-white pt-[20px] font-medium text-[32px]">
               Sorbon Kadyrov
             </p>
@@ -70,10 +70,10 @@ const Layout = () => {
           </div>
         </div>
 
-        <div className="img px-[10px] sm:hidden ">
+        <div className="img px-[10px] md:hidden ">
           <div className="burgerText flex justify-between py-[10px]">
             <div className="text">
-              <p className="pSorbon text-white ">Sorbon Kadyrov</p>
+              <p className="pSorbon text-white text-[28px] ">Sorbon Kadyrov</p>
             </div>
             <div className="burger">
               <MenuIcon sx={{ color: "white" }} />
@@ -82,14 +82,14 @@ const Layout = () => {
         </div>
 
         <div className="txt text-center md:hidden">
-          <h1 className="pt-[20px] text-white font-light">Welcome </h1>
+          <h1 className="pt-[20px] text-white font-light text-[22px]">Welcome </h1>
           <p className="text-white font-bold text-[28px] py-[10px]">
             I’m Sorbon Kadyrov
           </p>
           <p className="text-white pb-[18px]">Juniyor lvl 1 developer</p>
 
           <div className="btn py-[10px]">
-            <button className="py-[5px] px-[10px] bg-gradient-to-b from-blue-300 to-blue-800 text-white rounded-lg">
+            <button className="py-[10px] px-[10px] bg-gradient-to-b from-blue-300 to-blue-800 text-white rounded-lg">
               Download CV
             </button>
           </div>
