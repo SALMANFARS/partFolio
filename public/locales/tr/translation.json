@@ -1,0 +1,35 @@
+{
+  "Main": {
+    "nameSurename": "Sorbon Kadyrov",
+    "Im": "Ben Sorbon Kadyrov",
+    "welcome": "Hoş geldiniz",
+    "Juniyor-lvl-1": "Junior svy 1 geliştirici",
+    "cv": "CV Indir",
+    "home": "Ana",
+    "about": "Hakımda",
+    "Skills": "Yetenekler",
+    "Projects": "Projeler"
+  },
+  "About": {
+    "A-little-bit": "Biraz kendi ",
+    "aboutMe": "hakımda ...",
+    "I": "Ben 15 Mayıs 1999'da doğdum. 2019 yılında okulumu bitirdim ve Aralık 2019'da İSMEK'te PHP dilinde okumaya başladım. İSMEK'ten mezun olduktan sonra Moskova Maliye ve Hukuk Akademisi'nde orta mesleki eğitim bilgisayar sistemleri programlama uzmanlığına girdim. Mezun olduktan sonra Softclub akademisinde okumaya başladım. Frontend Developer Softclub'da eğitim aldım. Softclub'u Eylül 2023'te bitirdim."
+  },
+  "Skills": {
+    "skills": "Yeteneklerim",
+    "language": "Dil",
+    "Russia": "Rusça",
+    "Turkish": "Türkçe",
+    "English": "inglizçe",
+    "Studies": "Eğitim",
+    "Universiti": "Moscow Finance and Law University",
+    "Academy": "Softclub Akademisi"
+  },
+  "Projects": {
+    "Myproject": "Projelerim"
+  },
+  "Cv": {
+    "Intrested": "CV'mi görmek ister misiniz?",
+    "know": "Hakkımda daha fazla bilgi edinmek için CV'mi indirin"
+  }
+}

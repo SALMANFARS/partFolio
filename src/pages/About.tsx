@@ -1,8 +1,15 @@
+import "../App.css";
+import "../i18next";
+import { useTranslation } from "react-i18next";
 
-import "../App.css"
-
-import programmer from '../assets/programmer.png'
+import programmer from "../assets/programmer.png";
 const About = () => {
+
+    const { t, i18n } = useTranslation();
+
+    const changeLanguage = (language: any) => {
+      i18n.changeLanguage(language);
+    };
   return (
     <div id="about" className="bg-[#1F1F1F]">
       <div className="conteiner">
@@ -11,32 +18,20 @@ const About = () => {
             <img src={programmer} alt="" />
           </div>
           <div className="rightt sm:text-center lg:text-start ">
-            <h1 className="sm:text-[50px] md:text-[90px] font-bold text-white ">
-              A little bit <br />
-              <b className="tAbout sm:text-[50px] md:text-[90px] ml-[50px]">
-                about me ...
+            <h1 className="sm:text-[42px] md:text-[90px] font-bold text-white ">
+              {t("About.A-little-bit")} <br />
+              <b className="tAbout sm:text-[42px] md:text-[90px] ml-[50px]">
+                {t("About.aboutMe")}
               </b>
             </h1>
-            <p className="py-[20px] text-white ">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce{" "}
-              <br />
-              sollicitudin ut augue netus fusce fringilla. Aliquam blandit enim{" "}
-              <br /> odio cursus id. Pulvinar commodo pellentesque non massa,
-              nunc <br /> massa nisi est id. Diam est molestie massa commodo
-              pulvinar <br />
-              aliquam arcu gravida. Dictum pretium senectus dolor vulputate{" "}
-              <br />
-              tempor ac vel. Placerat proin sed risus at fusce aliquam.
-              Convallis <br /> varius auctor quam fusce diam. Vulputate enim est
-              nibh diam <br /> pellentesque. Adipiscing dolor turpis egestas
-              velit sit feugiat <br /> ultricies. Id ac placerat dolor sem neque
-              elit. Ut nisl <br /> turpis nisi etiam ac nibh.
+            <p className="py-[20px] text-white px-[50px]">
+              {t("About.I")}
             </p>
           </div>
         </div>
       </div>
     </div>
   );
-}
+};
 
-export default About
+export default About;

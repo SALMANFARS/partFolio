@@ -1,0 +1,36 @@
+{
+  "Main": {
+    "nameSurename": "Sorbon Kadyrov",
+    "welcome": "Welcome",
+    "Im": "I’m Sorbon Kadyrov",
+    "Juniyor-lvl-1": "Juniyor lvl 1 developer",
+    "cv": "Download CV",
+    "home": "Home",
+    "about": "About Me",
+    "Skills": "Skills",
+    "Projects": "Projects"
+  },
+  "About": {
+    "A-little-bit": "A little bit",
+    "aboutMe": "about me ...",
+    "I": "I was born in the 15th of May1999 years. In 2019 years I finished my school and I started studying at ISMEK in language PHP in December 2019 I graduated from ISMEK after that I entered in Moscow Academy of Finance and Law, in the specialty of secondary vocational education Programming in computer systems. After graduation I started studying at the academy Softclub I studied the Frontend Developer Softclub. I finished Softclub in the September 2023."
+  },
+  "Skills": {
+    "skills": "My Skills",
+    "language": "Language",
+    "Russia": "Russia",
+    "Turkish": "Turkish",
+    "English": "English",
+    "Studies": "Studies",
+    "Universiti": "Moscow Finance and Law University",
+    "Academy": "Softclub Academy"
+  },
+  "Projects": {
+    "Myproject": "My project"
+  },
+  "Cv": {
+    "Intrested":"Interested to see my CV ?",
+    "know":"Download my cV to know more about me"
+   
+  }
+}

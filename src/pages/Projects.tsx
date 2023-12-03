@@ -6,6 +6,8 @@ import userlist from "../assets/userListtt.jpg";
 import todolist from "../assets/todoList.jpg";
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
+import "../i18next";
+import { useTranslation } from "react-i18next";
 // Import Swiper styles
 
 import "swiper/css";
@@ -13,11 +15,19 @@ import "swiper/css/effect-coverflow";
 import "swiper/css/pagination";
 import { EffectCoverflow, Pagination } from "swiper/modules";
 const Projects = () => {
+
+
+    const { t, i18n } = useTranslation();
+
+    const changeLanguage = (language: any) => {
+      i18n.changeLanguage(language);
+    };
+
   return (
     <div id="projects">
       <div className="block6 py-[50px] bg-[#1F1F1F]">
         <h1 className="text-white text-[36px] text-center font-bold py-[20px]">
-          My Projects
+          {t("Projects.Myproject")}
         </h1>
       </div>
 
